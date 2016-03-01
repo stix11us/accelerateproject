@@ -1,0 +1,395 @@
+/*
+Theme Name: 	Accelerate Theme Child
+Theme URI: 		http://example.com/accelerate-theme-child/
+Description: 	Accelerate Child Theme - Accelerate
+Author:  		Anthony Lucio
+Author URI:		http://example.com
+Template:  		accelerate-theme
+Version:		1.0.0
+Tags:			light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain:	accelerate-theme-child
+*/
+
+@import url("../accelerate-theme/style.css");
+
+/********************************
+General Styles
+**********************************/
+
+/*main nav*/
+nav#primary-navigation.site-navigation.primary-navigation {
+	margin-top: -25px;
+}
+
+/* Homepage Styles */
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+}
+
+#masthead {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+.button {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+#masthead nav ul li {
+	float:left;
+	margin:0 10px;
+}
+
+.blog-post {
+	display:inline-block;
+	width: 42%;
+	height: 350px;
+}
+
+.blog-post h4 {
+	font-size: 16px;
+	font-family: 'Montserrat';
+	color: #a6a6a6;
+	text-transform: uppercase;
+}
+
+.blog-post h2 {
+	font-size: 24px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+}
+
+.blog-post .read-more-link {
+	font-size: 24px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+/********************************
+TITLE CONTENT
+**********************************/
+.homepage-hero > p {
+	color:white;
+	font-size: x-large;
+	margin-bottom: 4%;
+}
+
+
+/********************************
+Case Studies
+**********************************/
+
+article.case-study {
+	margin: 40px 0 0;
+	overflow: auto;
+}
+
+
+aside.case-study-sidebar {
+	float:left;
+	width: 330px;
+	margin-left: 300px;
+	margin-right: 70px;
+}
+
+aside.case-study-sidebar h6{
+	text-align: left;
+	width: 100%;
+}
+
+div.case-study-images {
+	display:inline-block;
+	width:606px;
+}
+
+div.case-study-images img{
+	margin-bottom:50px;
+	border:1px solid #dddddd;
+	width: 516px;
+}
+
+h5 {
+	color: #909090;
+	font-size: 100%;
+	font-weight: normal;
+}
+
+
+/********************************
+Home Page - Featured work
+**********************************/
+
+.featured-work{
+	text-align: center;
+}
+
+.homepage-featured-work {
+	display: inline-block;
+	margin: 0;
+}
+
+li.individual-featured-work {
+	list-style: none;
+	display:table-cell;
+	padding: 20px;
+}
+
+li.individual-featured-work > h6 {
+	width: 100%;
+}
+
+
+div.site-content{
+	padding: 0;
+	width: 100%;
+}
+
+
+/********************************
+Contact Page
+**********************************/
+
+.contactus{
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 4%;
+	margin-bottom: 7%;
+}
+
+#ninja_forms_field_1_div_wrap,
+#ninja_forms_field_2_div_wrap {
+	width:48%;
+}
+
+#ninja_forms_field_1_div_wrap {
+	display:inline-block;
+}
+
+#ninja_forms_field_2_div_wrap {
+	float: right;
+}
+
+#ninja_forms_field_3_div_wrap {
+	margin-top: 2%;
+}
+
+#ninja_forms_field_5 {
+	float:right;
+	color:white;
+	background-color:#009a9a;
+	width:30%;
+	padding: 3%;
+}
+
+/********************************
+About Page
+**********************************/
+
+.home-page#about  {
+	height: 170px;
+}
+
+.aboutpage-hero p{
+	color: white;
+	font-size: x-large;
+	font-weight:600;
+	text-align: center;
+}
+
+.aboutpage-hero a{
+	color: #45ac9d;
+}
+
+.aboutpage-hero {
+	width: 35%;
+	margin: 0 auto;
+}
+
+.about-content {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.about > h4, h6{
+	text-align:center;
+	width: 33%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.about > h6{
+	font-weight:500;
+}
+
+
+.section1 > p {
+	width: 55%;	
+	margin-right: 0px;
+}
+
+.section1 > h2 {
+	color: green;
+	width: 30%;
+	margin-right: 30px;
+		
+}
+
+.section1 img {
+	display: inline-block;
+	padding-bottom: 16%;
+}
+
+.description {
+	display:inline-block;
+	width: 705px;
+	margin-left: 24px;
+	padding-top: 0%;
+}
+
+section.section1 {
+	height: 290px;
+	width: 100%;
+	padding-left: 0%;
+	margin-top: 5%;
+}
+
+section.description p {
+	width: 100%;
+}
+
+.section2 img {
+	padding-bottom: 1%;
+	float:right;
+	margin-right: 20px;
+
+}
+
+.description h2 {
+	margin-top: 0px;	
+}
+
+section.section2 {
+	height: 230px;
+	width: 100%;
+	padding-left: 0%;
+}
+
+.section2 .description{
+	width:72%;
+	margin-left: 0;
+}
+
+.section2 .description > h2,p {
+	margin-top: 0px;	
+}
+
+.section3 img {
+	padding-bottom: 14%;
+	margin-right: 17px;
+}
+
+section.section3 {
+	height: 260px;
+	width: 100%;
+	padding-left: 0%;
+}
+
+.section3 .description{
+	width:75%;
+	margin-left: 0;
+}
+
+.section3 .description > h2,p {
+	margin-top: 0px;	
+}
+
+.section4 img {
+	padding-bottom: 1%;
+	float:right;
+}
+
+section.section4 {
+	height: 230px;
+	width: 100%;
+	padding-left: 0%;
+	margin-top: 20px;
+}
+
+.section4 .description{
+	width:75%;
+	margin-left: 0;
+}
+
+.section4 .description > h2,p {
+	margin-top: 0px;	
+}
+
+/*********************
+CONTACT BUTTON
+********************/
+
+section.contact_button {
+	padding-top:40px;
+	margin: 0px auto;
+	width: 75%;
+	height: 80px;
+}
+
+div.contact_button {
+	width: 60%;
+	height: 10%;
+	margin-right: auto;
+	margin-left: auto;
+	border-top: 1px dotted #e3e1e1;
+
+}
+.contact_button > p {
+	font-weight: bold;
+	font-size: 150%;
+	text-align: center;
+	display:inline-block;
+	margin-left: 0%;
+}
+
+a#contact_button {
+	display:inline-block;
+	margin-left: 5%;
+}
+/*****************************
+SOCIAL MEDIA
+*******************************/
+
+.widget-title {
+	font-size: 16px;
+	font-family: 'Montserrat';
+	color: #a6a6a6;
+	text-transform: uppercase;
+}
+
+.widget ul {
+	font-size: medium;
+	font-weight: 500;
+	list-style:none;
+	margin-left: 0px;
+}
+
+div.social-media-menu li{
+	list-style:none;
+}
+
+section.recent-posts {
+	display: block;	
+	width: 62%;
+	margin-top: 5%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+section.twitter-post {
+	width: 500px;
+	float:right;
+	margin-top: 2%;
+}
+
